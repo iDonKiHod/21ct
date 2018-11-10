@@ -35,6 +35,8 @@
     align-content: center;  
 
     float: left;
+
+    transition: all 0.7s;
 }
 
 #homework {
@@ -44,7 +46,7 @@
     background: linear-gradient(to bottom, #0072ff, #00c6ff);
     text-align: center;
     font-family: Ubuntu;
-    font-size: 75px;
+    font-size: 75px; 
     border-radius: 10px 10px 10px 10px;
     color: white;
     border: 0px solid white;
@@ -56,4 +58,14 @@
     align-content: center;  
 
     float: right;
+
+    transition: all 0.7s;
+}
+
+#timesheet:hover {
+    transform: scale(1.15);
+}
+
+#homework:hover {
+    transform: scale(1.15);
 }
