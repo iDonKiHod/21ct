@@ -1,0 +1,57 @@
+.html { 
+    -webkit-user-select: none;
+    /* user-select -- это нестандартное свойство */
+
+    -moz-user-select: none;
+    /* поэтому нужны префиксы */
+
+    -ms-user-select: none;
+ }
+
+ body {
+ 	background-image: url("../img/bg.jpg");
+ }
+
+.content {
+	margin: 250px 0 0 0;
+    display: flex;
+    flex-direction: row;     /* make main axis horizontal (default setting) */
+    justify-content: center; /* center items horizontally, in this case */
+    align-items: center; 
+}
+
+#timesheet {
+	width: 500px;
+	height: 205px;
+    background: -webkit-linear-gradient(to bottom, #0072ff, #00c6ff);
+    background: linear-gradient(to bottom, #0072ff, #00c6ff);
+    font-family: Ubuntu;
+    font-size: 75px;
+    border-radius: 10px 10px 10px 10px;
+    color: white;
+    border: 0px solid white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;        /* for single line flex container */
+    align-content: center;  
+}
+
+#homework {
+	width: 500px;
+	height: 205px;;
+    background: -webkit-linear-gradient(to bottom, #0072ff, #00c6ff);
+    background: linear-gradient(to bottom, #0072ff, #00c6ff);
+    text-align: center;
+    font-family: Ubuntu;
+    font-size: 75px;
+    border-radius: 10px 10px 10px 10px;
+    color: white;
+    border: 0px solid white;
+    margin: 0 0 0 150px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;        /* for single line flex container */
+    align-content: center;  
+}
