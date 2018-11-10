@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1043px) {
+@media only screen and (max-width: 992px) {
 	.body {
 		max-width: 992px;
 		margin: 0px;
@@ -33,13 +33,10 @@
 	height: 105px;
 	position: absolute;
 	top: 62%;
-    background: -webkit-linear-gradient(to bottom, #0072ff, #00c6ff);
-    background: linear-gradient(to bottom, #0072ff, #00c6ff);
-    text-align: center;
-    font-family: Ubuntu;
-    font-size: 35px;
+    font-size: 45px;
     border-radius: 10px 10px 10px 10px;
     color: white;
     border: 0px solid white;
     margin: 0 0 0 0;
+}
 }
