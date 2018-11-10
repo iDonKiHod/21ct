@@ -35,6 +35,8 @@
     justify-content: center;
     align-items: center;
     align-content: center;  
+
+    float: left;
 }
 
 #homework {
@@ -54,15 +56,15 @@
     justify-content: center;
     align-items: center;
     align-content: center;  
+
+    float: right;
 }
 
 .obt {
     border-radius: 3px 3px 3px 3px;
-    border-spacing: ;
     border: 3px solid white;
     background: red;
-    display: inline-block; 
-    text-align: top;
+    display: inline-block;
     color: white;
     font-size: 15px;
     font-weight: bold;
